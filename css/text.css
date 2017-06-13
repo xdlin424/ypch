@@ -1,0 +1,28 @@
+#content{
+	width:100%;
+}
+#content .banner{
+	width:949px;
+	margin:0 auto;
+	margin-top:20px;
+	min-height:400px;
+	height:auto!important;
+	height:400px;
+}
+#content .banner p{
+	font-weight:bold;
+	font-size:14px;
+	line-height:35px;
+}
+#content .banner .pp{
+	line-height:25px;
+	height:25px;
+	border-bottom:1px dashed #d3dce5;
+	width:949px;
+}
+#content .banner .ppp{
+	line-height:25px;
+	height:25px;
+	border-bottom:1px dashed #d3dce5;
+	width:20px;
+}

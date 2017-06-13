@@ -1,0 +1,106 @@
+.clearfix:after{
+	content:'...';
+	height:0;
+	display:block;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+}
+div,ul,li,a,p,h2,h3,h4,table,tr,td{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+li{
+	list-style:none;
+}
+/*                      头部 head                       */
+#head{
+	width:100%;
+}
+#head .content{
+	width:961px;
+	height:141px;
+	margin:0 auto;
+	background:url(../img/logo.png) no-repeat 8px 24px;
+	position:relative;
+}
+#head .content .link{
+	position:absolute;
+	bottom:20px;
+	left:8px;
+}
+#head .content .link a{
+	display:block;
+	float:left;
+	width:92px;
+	text-align:center;
+	line-height:16px;
+	height:16px;
+}
+#head .content .link a:hover{
+	color:red;
+}
+#head .content .phone{
+	width:177px;
+	position:absolute;
+	top:36px;
+	right:0;
+}
+#head .content .phone img{
+	display:block;
+}
+#head .banner{
+	width:100%;
+}
+#head .banner div{
+	width:1220px;
+	height:316px;
+	margin:0 auto;
+    overflow:hidden;
+}
+#head .banner div img{
+	display:block;
+}
+
+
+
+/*                     尾部foot                     */
+#foot{
+	width:100%;
+	background:url(../img/foot1.png);
+}
+#foot .content{
+	height:134px;
+	width:1220px;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+}
+#foot .content .link{
+	color:#666666;
+	margin-top:12px;
+}
+#foot .content .link a{
+	color:#666666;
+	font-size:14px;
+	text-decoration:underline;
+}
+#foot .content .link a:hover{
+	color:red;
+}
+#foot .content p{
+	font-size:12px;
+	line-height:22px;
+}
+
+#foot .content .p1{
+	margin-top:16px;
+	margin-bottom:0;
+}
+#foot .content .p2{
+	margin:0;
+}
